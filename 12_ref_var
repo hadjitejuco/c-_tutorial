@@ -1,0 +1,24 @@
+//Demonstrate how to use Reference Variable
+#include<iostream>
+using namespace std;
+int main ()
+{
+   int      a;
+   float    b;
+
+   // declare reference variables
+   int&     x = a;
+   float&   y = b;
+   
+   a = 25;
+   cout << "Value of a : " << a << endl;
+   cout << "Value of a reference : " << x  << endl;
+   cout << "Address is " << &x << endl;
+ 
+   b = 99.23;
+   cout << "Value of b : " << b << endl;
+   cout << "Value of b reference : " << y  << endl;
+   cout << "Address is " << &y << endl;
+
+   return 0;
+}
