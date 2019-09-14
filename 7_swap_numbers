@@ -1,0 +1,21 @@
+// Program to demostrate how to Swap two numbers using three Variable
+#include <iostream>
+using namespace std;
+
+int  main()
+{
+	int no1, no2, temp;
+
+	cout << "\n Enter Two Numbers --> ";
+	cin >> no1 >> no2;
+
+	cout << "\n Original value of number 1 = " << no1 << ", Original value of number 2 = " << no2 << endl;
+	
+	temp = no1;
+	no1 = no2;
+	no2 = temp;
+	
+	cout << "\n\n Swap Value of Number 1 = " << no1 << ", Swap Value of Number 2 = " << no2;
+	
+	return 0;
+}
