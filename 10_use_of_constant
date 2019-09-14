@@ -1,0 +1,19 @@
+// Program to demonstrate Constant and Variable definition 
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	float  rad;
+	const  float  PI = 3.14159;
+
+	cout << "Enter Radius of Sphere --->  ";
+	cin >> rad;
+
+	float  vol = (4.0/3.0) * PI * rad * rad * rad;
+
+	cout << "\nVolume of Sphere is  = " << vol;
+
+	return 0;
+}
