@@ -27,21 +27,38 @@ https://bit.ly/2lOl8hq
     ☐ Swap two numbers without third variable
  
  ☐ Variables and Data type
+ 
    ☐ Variable declaration and assignment
+   
    ☐ Dynamic initialization
+   
    ☐ Constant and Variable definition
+   
    ☐ Create constant using #define preprocessor
+   
    ☐ Introduce reference variable
+   
    ☐ User-defined type declaration
+   
    ☐ Scope resolution operator
+   
    ☐ Printing of ASCII characters
+   
+   
  ☐ Operators
+ 
    ☐ Arithmetic Operators
+   
    ☐ Relational Operators
+   
    ☐ Logical Operators
+   
    ☐ Assignment Operators
+   
    ☐ Shorthand Operators
+   
    ☐ Prefix and Postfix Increment (++) Operators
+   
    ☐ Prefix and Postfix Decrement (--) Operators
    ☐ Bitwise Operator
    ☐ sizeof() Operator
