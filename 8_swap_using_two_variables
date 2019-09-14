@@ -1,0 +1,18 @@
+//This program demonstrate Swap of two numbers using two variable
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int a,b;
+	cout<<"Enter the value of a and b:"<<endl;
+	cin>>a>>b;
+	cout<<"Before Swap:\n"<<" A:"<<a<<"\n B:"<<b<<endl;
+	a=a+b;
+	b=a-b;
+	a=a-b;
+	cout<<"After Swap:\n"<<" A:"<<a<<"\n B:"<<b<<endl;
+	return 0;
+}
+
