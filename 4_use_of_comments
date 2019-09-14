@@ -1,0 +1,22 @@
+/*  
+This program demostrate the use  of Multiple line 
+comment and Single line comment.
+*/
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	float   r, h,v  ;			// Variable Declaration.
+
+	cout << " Enter Radius and Height --> ";
+	
+	cin >> r >> h ;			// read data from keyboard.
+
+    v = 3.14 * r * r * h ;	// compute for volume.
+
+	cout << "\n Volume of Cylinder  = " << v << '\n';
+
+	return 0;
+}
