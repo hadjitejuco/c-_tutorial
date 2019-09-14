@@ -1,0 +1,22 @@
+// Program to demostrate the use of the cin and cout function
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	
+	int no1, no2, sum;
+	cout << "Enter First Number : ";
+	cin >> no1;
+	cout << "Enter Second Number : ";
+	cin >> no2;
+	
+	sum = no1 + no2;
+	
+	cout << "\nSum = ";
+	cout << sum;
+	
+	return 0;
+
+}
