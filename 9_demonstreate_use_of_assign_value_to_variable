@@ -1,0 +1,16 @@
+// Program to demonstrate how to declare and assign value to a variable
+
+#include <iostream> 
+using namespace std;
+ 
+int  main() 
+
+{ 
+	int length; 	// Variable Declaration.
+	length = 10; 	// Assignment. 
+ 
+	cout << "The length is "; 
+	cout << length; 	
+ 
+  return 0;
+}
