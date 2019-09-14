@@ -1,0 +1,26 @@
+// Program to demonstrate the use of  arithmetic operators ( +, -, * , / , % )
+#include <iostream>
+using namespace std;
+int main()
+{
+  	int a, b, res;
+  	cout << " Enter two numbers --> " ;
+  	cin >> a >> b;
+
+	res = a + b;
+  	cout << "\n" << a << " + " << b << " = " << res;
+
+	res = a - b;
+  	cout << "\n" << a << " - " << b << " = " << res;
+
+	res = a * b;
+  	cout << "\n" << a << " * " << b << " = " << res;
+
+	res = a / b;
+  	cout << "\n" << a << " / " << b << " = " << res;
+
+	res = a % b;
+  	cout << "\n" << a << " % " << b << " = " << res;
+
+  	return 0;
+}
