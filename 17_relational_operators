@@ -1,5 +1,8 @@
 // Program to demonstrate Relational Operators ( <, >, <=, >=, ==, != )
-
+//a relational operator is a programming language construct or operator that tests 
+//or defines some kind of relation between two entities.
+//                                  https://en.wikipedia.org/wiki/Relational_operator
+//result-> 0 - false / 1 - true
 #include <iostream>
 using namespace std;
 
@@ -9,13 +12,12 @@ int main()
 
 	cout << "\n Enter any Number --> ";
 	cin >> n;
-	cout << "\n (n < 10) is = " << (n < 10);
-	cout << "\n (n > 10) is = " << (n > 10);
-	cout << "\n (n <= 10) is = " << (n <= 10);
-	cout << "\n (n >= 10) is = " << (n >= 10);
-	cout << "\n (n == 10) is = " << (n == 10);
-	cout << "\n (n != 10) is = " << (n != 10);
+	cout << "\n (n < 25) is = " << (n < 25);
+	cout << "\n (n > 25) is = " << (n > 25);
+	cout << "\n (n <= 25) is = " << (n <= 25);
+	cout << "\n (n >= 25) is = " << (n >= 25);
+	cout << "\n (n == 25) is = " << (n == 25);
+	cout << "\n (n != 25) is = " << (n != 25);
     
     return 0;
 }
-
