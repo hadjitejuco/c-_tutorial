@@ -1,26 +1,31 @@
-// Program to demonstrate the use of  arithmetic operators ( +, -, * , / , % )
+// Program to explain Arithmetic Operators ( +, -, * , / , % )
+//An arithmetic operator is a mathematical function that takes two operands and performs a calculation on them. 
+//                                  https://www.techopedia.com/definition/25582/arithmetic-operator
+
+//The modulo operation finds the remainder after division of one number by another
+//                                  https://en.wikipedia.org/wiki/Modulo_operation
 #include <iostream>
 using namespace std;
 int main()
 {
-  	int a, b, res;
-  	cout << " Enter two numbers --> " ;
-  	cin >> a >> b;
+  	int x, y, res;
+  	cout << " Enter two numbers ::: " ;
+  	cin >> x >> y;
 
-	res = a + b;
-  	cout << "\n" << a << " + " << b << " = " << res;
+	res = x + y;
+  	cout << "\n" << x << " + " << y << " = " << res;
 
-	res = a - b;
-  	cout << "\n" << a << " - " << b << " = " << res;
+	res = x - y;
+  	cout << "\n" << x << " - " << y << " = " << res;
 
-	res = a * b;
-  	cout << "\n" << a << " * " << b << " = " << res;
+	res = x * y;
+  	cout << "\n" << x << " * " << y << " = " << res;
 
-	res = a / b;
-  	cout << "\n" << a << " / " << b << " = " << res;
+	res = x / y;
+  	cout << "\n" << x << " / " << y << " = " << res;
 
-	res = a % b;
-  	cout << "\n" << a << " % " << b << " = " << res;
+	res = x % y;
+  	cout << "\n" << x << " % " << y << " = " << res;
 
-  	return 0;
+    return 0;
 }
