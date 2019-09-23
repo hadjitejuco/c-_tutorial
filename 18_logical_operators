@@ -1,21 +1,29 @@
 // Program to demonstrate the use of Logical Operators ( &&, ||, ! )
+/*
+Logical Operators are used to combine two or more conditions/constraints or to complement 
+the evaluation of the original condition in consideration. The result of the operation of a logical operator 
+is a boolean value either true or false. 
 
+                        https://www.geeksforgeeks.org/operators-in-c-set-2-relational-and-logical-operators/
+                        
+    false -> 0   true -> 1
+*/
 #include <iostream>
 using namespace std;
 
 int main()
 {
 	cout << "\n Logical AND ( && ) Operator.";
-	cout << "\n ((10<20)&&(30<40)) : " << ((10<20)&&(30<40));
-	cout << "\n ((10<20)&&(30>40)) : " << ((10<20)&&(30>40));
-	cout << "\n ((10>20)&&(30<40)) : " << ((10>20)&&(30<40));
-	cout << "\n ((10>20)&&(30>40)) : " << ((10>20)&&(30>40));
+	cout << "\n ((10<20)&&(30<40)) : " << (10<20 && 30<40);
+	cout << "\n ((10<20)&&(30>40)) : " << (10<20 && 30>40);
+	cout << "\n ((10>20)&&(30<40)) : " << (10>20 && 30<40);
+	cout << "\n ((10>20)&&(30>40)) : " << (10>20 && 30>40);
 
 	cout << "\n\n Logical OR ( || ) Operator.";
-	cout << "\n ((10<20)||(30<40)) : " << ((10<20)||(30<40));
-	cout << "\n ((10<20)||(30>40)) : " << ((10<20)||(30>40));
-	cout << "\n ((10>20)||(30<40)) : " << ((10>20)||(30<40));
-	cout << "\n ((10>20)||(30>40)) : " << ((10>20)||(30>40));
+	cout << "\n ((10<20)||(30<40)) : " << (10<20 ||30<40);
+	cout << "\n ((10<20)||(30>40)) : " << (10<20 ||30>40);
+	cout << "\n ((10>20)||(30<40)) : " << (10>20 ||30<40);
+	cout << "\n ((10>20)||(30>40)) : " << (10>20 ||30>40);
 
 	cout << "\n\n Logical NOT ( ! ) Operator.";
 	cout << "\n ( !(10<20)) : " << ( !(10<20));
