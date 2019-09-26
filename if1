@@ -1,0 +1,17 @@
+// Program to explain Simple If statement.
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int  x;
+	cout << " Enter a number -- >";
+	cin >> x;
+
+	if( x > 100 ){  // 0 1 
+		cout << "\nNumber is greater than 100.";
+	}
+    return 0;
+}
+
