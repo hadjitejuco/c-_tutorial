@@ -1,0 +1,42 @@
+// Program to use Arithmetic Operators.
+//if else ladder
+#include <iostream>
+using namespace std;
+int main()
+{
+	char op;
+  	int a, b, result;
+  	cout << " Enter two numbers ::: " ;
+  	cin >> a >> b;
+  	cout <<" Enter the operator (+, -, *, /, %) ::: ";
+  	cin >> op;
+  	if( op == '+' )
+  	{
+  		result = a + b;
+  	}
+  	else if( op == '-' )
+  	{
+  		reresults = a - b;
+  	}
+  	else if( op == '*' )
+  	{
+  		result = a * b;
+  	}
+  	else if( op == '/' )
+  	{
+  		result = a / b;
+  	}
+  	else if( op == '%' )
+  	{
+  		result = a % b;
+  	}
+	else
+  	{
+  		cout << " Wrong operator";
+  	}
+
+  	cout << "\n" << a << " " << op << " " << b << " = " << result;
+
+  	return 0;
+}
+
