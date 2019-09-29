@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    int grade;
+    cout << "Enter Grade ";
+    cin >> grade;
+    if (grade>=90)
+        cout << "\n A";
+    else if (grade>=80)
+        cout << "\n B";
+    else if (grade>=70)
+        cout << "\n C";
+    else if (grade>=60)
+        cout << "\n D";
+    else
+       cout << "\n F";
+       
+    return 0;
+}
