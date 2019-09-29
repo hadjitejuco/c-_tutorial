@@ -1,0 +1,28 @@
+/* Enter letter and display the equivalent Value
+    Letter              Value
+    B or b              Blue
+    R or r              Red
+    G or g              Green
+    Y or y              Yellow
+    others              Unknown color
+*/
+//use the OR OPERATOR
+#include <iostream>
+using namespace std;
+int main()
+{
+    char let;
+    cout << "\n Enter a letter:  " ;
+    cin >> let;
+    if (let=='B' || let=='b')
+        cout << "\n Blue";
+    else if (let=='R' || let=='r')
+        cout << "\n Red";
+    else if (let=='G' || let=='g')
+        cout << "\n Green";
+    else if (let=='Y' || let=='y')
+        cout << "\n Yellow";
+    else
+        cout << "\n Unknown Color";
+    return 0;
+}
